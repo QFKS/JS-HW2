@@ -9,6 +9,9 @@ if(userName == 'admin' && password == '12345'){
     console.log('Welcome to system');
     document.writeln('Welcome to system');
 }
+else{
+    alert('userName and password - are incorrect');
+}
 
 let Whereuf = prompt('Where u from?');
 
